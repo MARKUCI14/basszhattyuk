@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/basszhattyuk">
       <Routes>
       <Route path="/" element={<MainPage />} />
       </Routes>
