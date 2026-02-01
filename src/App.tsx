@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 
 import MainPage from './pages/MainPage';
+import PolokHoodiePage from './pages/PolokHoodiePage';
 
 import './assets/index.css';
 
@@ -13,8 +14,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/polok-hoodie" element={<PolokHoodiePage />} />
         {/*
-        <Route path="/polok-hoodie" />
         <Route path="/elerhetosegek" />
         */}
       </Routes>
