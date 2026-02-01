@@ -1,4 +1,4 @@
-import { Box, Typography, Container, Link } from '@mui/material'
+import { Box, Typography, Container, Link } from '@mui/material';
 
 export default function Footer() {
   return (
@@ -15,10 +15,12 @@ export default function Footer() {
       </Container>
       <Container maxWidth="lg" sx={{ mt: 1 }}>
         <Typography variant="body2" color="textSecondary" align="center">
-          Contribuitors: 
-          <Link color="inherit" href="https://github.com/MARKUCI14">Márk Portik</Link>
+          Contribuitors:
+          <Link color="inherit" href="https://github.com/MARKUCI14">
+            Márk Portik
+          </Link>
         </Typography>
       </Container>
     </Box>
-  )
+  );
 }
