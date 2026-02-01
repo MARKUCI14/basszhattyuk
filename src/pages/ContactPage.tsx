@@ -38,16 +38,30 @@ export default function ContactPage() {
               sx={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: 2,
+                justifyContent: 'space-between',
+                width: '100%',
                 flexWrap: 'wrap',
+                mb: 1,
               }}
             >
-              <Link href={`tel:${contact.phone}`} aria-label="Call phone" underline="none" color="inherit">
-                <PhoneIcon fontSize="large" />
+              <Link
+                href={`tel:${contact.phone}`}
+                aria-label="Call phone"
+                underline="none"
+                color="inherit"
+                sx={{ fontSize: 48 }}
+              >
+                <PhoneIcon sx={{ fontSize: 48 }} />
               </Link>
 
-              <Link href={`sms:${contact.phone}`} aria-label="Send message" underline="none" color="inherit">
-                <SmsIcon fontSize="large" />
+              <Link
+                href={`sms:${contact.phone}`}
+                aria-label="Send message"
+                underline="none"
+                color="inherit"
+                sx={{ fontSize: 48 }}
+              >
+                <SmsIcon sx={{ fontSize: 48 }} />
               </Link>
 
               {contact.instagram && (
@@ -58,8 +72,9 @@ export default function ContactPage() {
                   aria-label="Open Instagram"
                   underline="none"
                   color="inherit"
+                  sx={{ fontSize: 48 }}
                 >
-                  <InstagramIcon fontSize="large" />
+                  <InstagramIcon sx={{ fontSize: 48 }} />
                 </Link>
               )}
 
@@ -71,8 +86,9 @@ export default function ContactPage() {
                   aria-label="Open Facebook"
                   underline="none"
                   color="inherit"
+                  sx={{ fontSize: 48 }}
                 >
-                  <FacebookIcon fontSize="large" />
+                  <FacebookIcon sx={{ fontSize: 48 }} />
                 </Link>
               )}
             </Box>
