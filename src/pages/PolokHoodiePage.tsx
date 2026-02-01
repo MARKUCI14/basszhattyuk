@@ -17,15 +17,9 @@ import {
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import sizeData from '../assets/sizes.json';
-import type { SizeTableData } from '../types/sizes';
+import type { SizeTableData, PriceTableData } from '../types/types';
 
 import priceDataJson from '../assets/prices.json';
-
-interface PriceTableData {
-  tshirt: number[];
-  hoodie: number[];
-  titles: string[];
-}
 
 export default function PolokHoodiePage() {
   const sizeChartData: SizeTableData[] = sizeData;

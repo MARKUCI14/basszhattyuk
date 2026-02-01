@@ -5,6 +5,7 @@ import Header from './components/Header';
 
 import MainPage from './pages/MainPage';
 import PolokHoodiePage from './pages/PolokHoodiePage';
+import ContactPage from './pages/ContactPage';
 
 import './assets/index.css';
 
@@ -15,9 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/polok-hoodie" element={<PolokHoodiePage />} />
-        {/*
-        <Route path="/elerhetosegek" />
-        */}
+        <Route path="/elerhetosegek" element={<ContactPage />} />
+        {/**/}
       </Routes>
       <Footer />
     </BrowserRouter>
