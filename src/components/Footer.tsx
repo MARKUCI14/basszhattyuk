@@ -2,7 +2,7 @@ import { Box, Typography, Container, Link } from '@mui/material';
 
 export default function Footer() {
   return (
-    <Box component="footer" sx={{ py: 3, mt: 'auto', backgroundColor: '#f5f5f5' }}>
+    <Box component="footer" sx={{ py: 3, mt: 'auto', backgroundColor: '#f5f5f5', marginTop: 10 }}>
       <Container maxWidth="lg">
         <Typography variant="body2" color="textSecondary" align="center">
           {'© '}

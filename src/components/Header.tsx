@@ -1,0 +1,14 @@
+import { Box } from '@mui/material';
+
+export default function Header() {
+  return (
+    <Box component="header" sx={{ py: 3, mt: 'auto', backgroundColor: '#f5f5f5', marginBottom: 10 }}>
+      <Box
+        component="img"
+        src="./src/assets/hattyu_piros_filled.png"
+        alt="BasszHattyúk Logo"
+        sx={{ height: 150, display: 'block', marginLeft: 'auto', marginRight: 'auto' }}
+      />
+    </Box>
+  );
+}
