@@ -17,7 +17,7 @@ export default function MainPage() {
     <Container>
       <Stack spacing={3}>
         <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')}>
-          Polok és hoodie
+          Pólók és hoodie
         </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>
           Elérhetőségek
