@@ -8,10 +8,10 @@ export default function MainPage() {
   return (
     <Container>
       <Stack spacing={3}>
-        <BasszButton variant="contained" /*onClick={() => navigate('/adatok')}*/ disabled={true}>
+        <BasszButton variant="contained" onClick={() => navigate('/adatok')}>
           Regisztráció és adatok
         </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')}>
+        <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')} disabled={true}>
           Pólók és hoodie
         </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>

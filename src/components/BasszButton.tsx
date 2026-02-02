@@ -1,6 +1,8 @@
-import { Button, styled } from '@mui/material';
+import { Button, styled, type ButtonProps } from '@mui/material';
 
-const BasszButton = styled(Button)({
+type BasszButtonProps = ButtonProps & React.ComponentPropsWithoutRef<'a'>;
+
+const BasszButton = styled(Button)<BasszButtonProps>({
   fontSize: '1.5rem',
   backgroundColor: '#d40201',
   color: '#fff',
