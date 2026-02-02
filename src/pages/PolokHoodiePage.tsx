@@ -70,6 +70,12 @@ export default function PolokHoodiePage() {
         <Link href="https://example.com/order-form" target="_blank" rel="noopener">
           LINK
         </Link>
+        <br />
+        <strong>Befizetési információk:</strong>
+        <br />
+        <strong>Revolut:</strong> +40 757 803 704 / @markuci14
+        <br />
+        <strong>BT Pay:</strong> +40 757 803 704
       </Typography>
       <Typography variant="body1" sx={{ mb: 3 }}>
         Lennebb található a mérettáblázat.
