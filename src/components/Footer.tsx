@@ -12,7 +12,7 @@ function DiscordIcon(props: SvgIconProps) {
 
 export default function Footer() {
   return (
-    <Box component="footer" sx={{ py: 3, mt: 'auto', backgroundColor: '#f5f5f5', marginTop: 10 }}>
+    <Box component="footer" sx={{ py: 3, mt: 'auto', backgroundColor: '#f5f5f5', marginTop: 5 }}>
       <Container maxWidth="lg">
         <Box
           sx={{
