@@ -51,7 +51,7 @@ export default function ContactPage() {
                 color="inherit"
                 sx={{ fontSize: 48 }}
               >
-                <PhoneIcon sx={{ fontSize: 48 }} />
+                <PhoneIcon sx={{ fontSize: 48, color: '#d40201' }} />
               </Link>
 
               <Link
@@ -61,7 +61,7 @@ export default function ContactPage() {
                 color="inherit"
                 sx={{ fontSize: 48 }}
               >
-                <SmsIcon sx={{ fontSize: 48 }} />
+                <SmsIcon sx={{ fontSize: 48, color: '#d40201' }} />
               </Link>
 
               {contact.instagram && (
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   color="inherit"
                   sx={{ fontSize: 48 }}
                 >
-                  <InstagramIcon sx={{ fontSize: 48 }} />
+                  <InstagramIcon sx={{ fontSize: 48, color: '#E1306C' }} />
                 </Link>
               )}
 
@@ -88,7 +88,7 @@ export default function ContactPage() {
                   color="inherit"
                   sx={{ fontSize: 48 }}
                 >
-                  <FacebookIcon sx={{ fontSize: 48 }} />
+                  <FacebookIcon sx={{ fontSize: 48, color: '#1877F2' }} />
                 </Link>
               )}
             </Box>
