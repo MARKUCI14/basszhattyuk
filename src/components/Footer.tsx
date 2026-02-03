@@ -56,7 +56,7 @@ export default function Footer() {
       </Container>
       <Container maxWidth="lg" sx={{ mt: 1 }}>
         <Typography variant="body2" color="textSecondary" align="center">
-          Contributors:
+          Contributors:{' '}
           <Link color="inherit" href="https://github.com/MARKUCI14">
             Márk Portik
           </Link>

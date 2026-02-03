@@ -24,7 +24,7 @@ export default function ContactPage() {
   return (
     <Box sx={{ p: isMobile ? 2 : 4, maxWidth: 600, mx: 'auto' }}>
       <Typography variant="h4" component="h1" sx={{ mb: 3, textAlign: 'center' }}>
-        Contacts
+        Elérhetőségek
       </Typography>
 
       {contactData.map((contact: ContactInfo) => (

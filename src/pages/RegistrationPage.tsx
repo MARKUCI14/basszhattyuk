@@ -57,6 +57,11 @@ export default function RegistrationPage() {
         <BasszButton component="a" href="https://forms.gle/b4xsixWJUPWVyY5P9" target="_blank" rel="noopener noreferrer">
           Rendes tagok Form
         </BasszButton>
+        {/*
+        <BasszButton component="a" href="https://forms.gle/1XoxTU86wXZ1jdG18" target="_blank" rel="noopener noreferrer">
+          Külsősök Form
+        </BasszButton>
+        */}
       </Stack>
     </Box>
   );

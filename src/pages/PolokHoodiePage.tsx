@@ -31,7 +31,7 @@ export default function PolokHoodiePage() {
   return (
     <Box sx={{ p: isMobile ? 2 : 4, maxWidth: 800, margin: '0 auto' }}>
       <Typography variant="h4" component="h1" sx={{ mb: 3, textAlign: 'center' }}>
-        Pólók és hoodie-k
+        Pólók és hoodiek
       </Typography>
       <Typography variant="body1" sx={{ mb: 3 }}>
         <strong>Árak:</strong>
