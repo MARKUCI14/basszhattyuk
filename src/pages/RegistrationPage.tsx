@@ -40,7 +40,7 @@ export default function RegistrationPage() {
             <strong>Személyi igazolvány száma:</strong> Seria + 6/7 Számjegy (<strong>NEM</strong> a CNP!)
           </li>
           <li>
-            <strong>KMDSZ Kártya ID:</strong> Az applikációból (A-xxxxxx formátum)
+            <strong>KMDSZ Kártya ID:</strong> A <strong>KMDSZ A Kártya</strong> alkalmazásból (A-xxxxxx formátum)
           </li>
           <li>
             <strong>Facebook profil link</strong>
