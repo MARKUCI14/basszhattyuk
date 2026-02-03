@@ -8,17 +8,17 @@
     "lang": "en-US",
     "icons": [
       {
-        "src": "/icons/hattyu_512.png",
+        "src": "/basszhattyuk/icons/hattyu_512.png",
         "type": "image/png",
         "sizes": "512x512"
       },
       {
-        "src": "/icons/hattyu_128.png",
+        "src": "/basszhattyuk/icons/hattyu_128.png",
         "type": "image/png",
         "sizes": "128x128"
       },
       {
-        "src": "/icons/hattyu_32.png",
+        "src": "/basszhattyuk/icons/hattyu_32.png",
         "type": "image/png",
         "sizes": "32x32"
       }
