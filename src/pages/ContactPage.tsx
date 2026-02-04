@@ -16,6 +16,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 
 import type { ContactInfo } from '../types/types';
 import contactData from '../assets/contacts.json';
+import BackButton from '../components/BackButton';
 
 export default function ContactPage() {
   const theme = useTheme();
@@ -23,6 +24,7 @@ export default function ContactPage() {
 
   return (
     <Box sx={{ p: isMobile ? 2 : 4, maxWidth: 600, mx: 'auto' }}>
+      <BackButton />
       <Typography variant="h4" component="h1" sx={{ mb: 3, textAlign: 'center' }}>
         Elérhetőségek
       </Typography>

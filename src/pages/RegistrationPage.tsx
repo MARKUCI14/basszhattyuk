@@ -2,6 +2,7 @@ import { Box, Paper, Stack, Typography, useMediaQuery, useTheme } from '@mui/mat
 
 import BasszButton from '../components/BasszButton';
 import Apps from '../components/KMDSZApp';
+import BackButton from '../components/BackButton';
 
 export default function RegistrationPage() {
   const theme = useTheme();
@@ -9,6 +10,8 @@ export default function RegistrationPage() {
 
   return (
     <Box sx={{ p: isMobile ? 2 : 4, maxWidth: 800, margin: '0 auto' }}>
+      <BackButton />
+
       <Typography variant="h4" component="h1" sx={{ mb: 3, textAlign: 'center' }}>
         Regisztráció És Adatok
       </Typography>

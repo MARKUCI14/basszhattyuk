@@ -20,6 +20,7 @@ import sizeData from '../assets/sizes.json';
 import type { SizeTableData, PriceTableData } from '../types/types';
 
 import priceDataJson from '../assets/prices.json';
+import BackButton from '../components/BackButton';
 
 export default function PolokHoodiePage() {
   const sizeChartData: SizeTableData[] = sizeData;
@@ -30,6 +31,7 @@ export default function PolokHoodiePage() {
 
   return (
     <Box sx={{ p: isMobile ? 2 : 4, maxWidth: 800, margin: '0 auto' }}>
+      <BackButton />
       <Typography variant="h4" component="h1" sx={{ mb: 3, textAlign: 'center' }}>
         Pólók és hoodiek
       </Typography>
