@@ -1,0 +1,23 @@
+[
+  {
+    "id": "men-tshirt",
+    "title": "Férfi póló",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "length": [70, 72, 74, 76, 78],
+    "chest": [50, 53, 56, 59, 62]
+  },
+  {
+    "id": "women-tshirt",
+    "title": "Női póló",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "length": [61, 63, 65, 67, 69],
+    "chest": [41, 44, 47, 50, 53]
+  },
+  {
+    "id": "hoodie",
+    "title": "Hoodie (Unisex)",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "length": [68.58, 71.12, 73.66, 76.2, 78.74],
+    "chest": [50.8, 55.88, 60.96, 66.04, 71.12]
+  }
+]
