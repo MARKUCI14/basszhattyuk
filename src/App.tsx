@@ -18,8 +18,8 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="/elerhetosegek" element={<ContactPage />} />
         <Route path="/adatok" element={<RegistrationPage />} />
-
         <Route path="/polok-hoodie" element={<PolokHoodiePage />} />
+        <Route path="*" element={<MainPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
