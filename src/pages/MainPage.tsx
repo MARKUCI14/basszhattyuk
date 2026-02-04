@@ -14,6 +14,9 @@ export default function MainPage() {
         <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')} disabled={true}>
           Pólók és hoodiek
         </BasszButton>
+        <BasszButton variant="contained" onClick={() => navigate('/kabanna')} disabled={true}>
+          Csapatösszerázó (Kabanna)
+        </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>
           Elérhetőségek
         </BasszButton>

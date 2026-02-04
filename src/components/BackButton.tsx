@@ -7,7 +7,7 @@ export default function BackButton() {
   const navigate = useNavigate();
 
   return (
-    <Stack sx={{ mb: 5 }}>
+    <Stack sx={{ mb: 5, mt: 0 }}>
       <BasszButton onClick={() => navigate(-1)}>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
           <ArrowBackIcon />

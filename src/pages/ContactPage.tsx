@@ -23,7 +23,7 @@ export default function ContactPage() {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
-    <Box sx={{ p: isMobile ? 2 : 4, maxWidth: 600, mx: 'auto' }}>
+    <Box sx={{ p: isMobile ? 2 : 4, pt: 0, maxWidth: 800, margin: '0 auto' }}>
       <BackButton />
       <Typography variant="h4" component="h1" sx={{ mb: 3, textAlign: 'center' }}>
         Elérhetőségek
