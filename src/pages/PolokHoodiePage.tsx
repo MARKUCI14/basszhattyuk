@@ -74,7 +74,7 @@ export default function PolokHoodiePage() {
         </Link>
         <br />
         <strong>Befizetési információk:</strong>
-        <br />
+        <br /> {/* Hey, follow this link to send me money on Revolut: https://revolut.me/markuci14 */}
         <strong>Revolut:</strong> +40 757 803 704 / @markuci14
         <br />
         <strong>BT Pay:</strong> +40 757 803 704
@@ -124,7 +124,6 @@ export default function PolokHoodiePage() {
                     </TableBody>
                   </>
                 ) : (
-                  // --- DESKTOP VIEW (Original) ---
                   <>
                     <TableHead>
                       <TableRow sx={{ backgroundColor: '#f5f5f5' }}>
