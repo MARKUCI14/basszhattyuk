@@ -40,7 +40,7 @@ export default function PolokHoodiePage() {
             <TableHead>
               <TableRow sx={{ backgroundColor: '#f5f5f5' }}>
                 <TableCell>
-                  <strong>Kivitel</strong>
+                  <strong>Lej (RON)</strong>
                 </TableCell>
                 <TableCell align="center">
                   <strong>Póló ár</strong>
