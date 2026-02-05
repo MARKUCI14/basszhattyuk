@@ -32,6 +32,9 @@ export default function RegistrationPage() {
           borderRadius: 2,
         }}
       >
+        <Typography variant="h5" component="h2" sx={{ mb: 2, fontWeight: 800 }}>
+          HATARIDŐ: <span style={{ color: 'red' }}>2025 FEBRUÁR 23.</span>
+        </Typography>
         <Typography variant="h6" component="h2" sx={{ mb: 2, fontWeight: 600 }}>
           Készítsd elő az alábbiakat a kitöltéshez:
         </Typography>

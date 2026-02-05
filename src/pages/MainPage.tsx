@@ -1,22 +1,26 @@
-import { Container, Stack } from '@mui/material';
+import { Box, Stack, useMediaQuery, useTheme } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import BasszButton from '../components/BasszButton';
 
 export default function MainPage() {
   const navigate = useNavigate();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
-    <Container>
+    <Box sx={{ p: isMobile ? 2 : 4, pt: 0, maxWidth: 800, margin: '0 auto' }}>
       <Stack spacing={3}>
         <BasszButton variant="contained" onClick={() => navigate('/adatok')}>
           Regisztráció és adatok
         </BasszButton>
+        {/*
         <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')} disabled={true}>
           Pólók és hoodiek
         </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/kabanna')} disabled={true}>
           Csapatösszerázó (Kabanna)
         </BasszButton>
+        */}
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>
           Elérhetőségek
         </BasszButton>
@@ -38,6 +42,6 @@ export default function MainPage() {
         </BasszButton>
         */}
       </Stack>
-    </Container>
+    </Box>
   );
 }
