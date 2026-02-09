@@ -89,7 +89,7 @@ export default function PolokHoodiePage() {
           @markuci14
         </a>
         <br />
-        <strong>BT Pay:</strong> +40 757 803 704
+        <strong>BT Pay:</strong> +40 757 803 704 (nevet is írjatok)
       </Typography>
       <Typography variant="body1" sx={{ mb: 3 }}>
         Lennebb található a mérettáblázat.
