@@ -73,9 +73,12 @@ export default function PolokHoodiePage() {
           Rendelési Form
         </BasszButton>
       </Stack>
+      <Typography variant="h5" component="h2" sx={{ mb: 2, fontWeight: 800 }}>
+        HATARIDŐ: <span style={{ color: 'red' }}>2025 FEBRUÁR 27.</span>
+      </Typography>
       <Typography variant="body1" sx={{ mb: 3 }}>
         <strong>Befizetési információk:</strong>
-        <br /> {/* Hey, follow this link to send me money on Revolut: https://revolut.me/markuci14 */}
+        <br />
         <strong>Revolut:</strong> +40 757 803 704 /{' '}
         <a
           href="https://revolut.me/markuci14"
