@@ -13,10 +13,10 @@ export default function MainPage() {
         <BasszButton variant="contained" onClick={() => navigate('/adatok')}>
           Regisztráció és adatok
         </BasszButton>
-        {/*
-        <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')} disabled={true}>
+        <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')}>
           Pólók és hoodiek
         </BasszButton>
+        {/*
         <BasszButton variant="contained" onClick={() => navigate('/kabanna')} disabled={true}>
           Csapatösszerázó (Kabanna)
         </BasszButton>

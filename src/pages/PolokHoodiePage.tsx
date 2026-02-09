@@ -13,7 +13,7 @@ import {
   Box,
   useTheme,
   useMediaQuery,
-  Link,
+  Stack,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import sizeData from '../assets/sizes.json';
@@ -21,6 +21,7 @@ import type { SizeTableData, PriceTableData } from '../types/types';
 
 import priceDataJson from '../assets/prices.json';
 import BackButton from '../components/BackButton';
+import BasszButton from '../components/BasszButton';
 
 export default function PolokHoodiePage() {
   const sizeChartData: SizeTableData[] = sizeData;
@@ -67,15 +68,23 @@ export default function PolokHoodiePage() {
         </TableContainer>
       </Typography>
 
+      <Stack spacing={2} sx={{ mb: 3 }}>
+        <BasszButton component="a" href="https://forms.gle/sNSzh97oqe3nKXYTA" target="_blank" rel="noopener noreferrer">
+          Rendelési Form
+        </BasszButton>
+      </Stack>
       <Typography variant="body1" sx={{ mb: 3 }}>
-        A következő linken található a Google Form, ahol lehet rendelni:{' '}
-        <Link href="https://example.com/order-form" target="_blank" rel="noopener">
-          LINK
-        </Link>
-        <br />
         <strong>Befizetési információk:</strong>
         <br /> {/* Hey, follow this link to send me money on Revolut: https://revolut.me/markuci14 */}
-        <strong>Revolut:</strong> +40 757 803 704 / @markuci14
+        <strong>Revolut:</strong> +40 757 803 704 /{' '}
+        <a
+          href="https://revolut.me/markuci14"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: '#d40201', textDecoration: 'none' }}
+        >
+          @markuci14
+        </a>
         <br />
         <strong>BT Pay:</strong> +40 757 803 704
       </Typography>
